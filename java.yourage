@@ -1,0 +1,17 @@
+import java.util.Scanner; /**
+ *
+ * @author Students
+ */
+public class Myage {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter your age: ");
+        int yourAge = scanner.nextInt();
+        
+        System.out.println("I`m Yanie and I`m " + yourAge + " years old.");
+        
+        scanner.close();
+    }
+    
+}
